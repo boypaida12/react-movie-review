@@ -58,10 +58,10 @@ button:focus-visible {
   gap: 0.5rem;
 }
 
-.grid div {
-  border: 1px solid rgb(76, 179, 38);
+.grid>div {
   padding-inline: 0.5rem;
   border-radius: 8px;
+  border: 1px solid green;
 }
 @media (prefers-color-scheme: light) {
   :root {
